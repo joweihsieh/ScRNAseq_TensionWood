@@ -1,0 +1,22 @@
+# Analysis workflow built by Shang-Cheng Kuo (https://orcid.org/0000-0002-6773-8179)
+from datetime import datetime
+from tension_wood.config import WORKDIR
+from tension_wood.config import RAW_DATA_DIR, INTERIM_DATA_DIR, EXTERNAL_DATA_DIR
+from tension_wood.config import PROCESSED_DATA_DIR, FIGURES_DIR
+
+DATETIME = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+configfile: "workflow/configs/config.json"
+
+include: "rules/preprocessing.smk"
+
+# ==============================================================================
+rule all:
+    input:
+        expand(
+            INTERIM_DATA_DIR / "ms1_combined_{plates}.tsv",
+            plates = [
+                "LCM_spatial"
+            ]
+        )
+

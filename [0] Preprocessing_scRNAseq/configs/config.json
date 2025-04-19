@@ -1,0 +1,481 @@
+{
+    "RAW_DATA_PATH" : "/home/woodydrylab/YCLlab_raw_data/YCLlab_Rawdata/RNA-seq",
+    "OTHER_DATA_PATH" : "/home/f06b22037/DiskArray_f06b22037/HDD2",
+    "REF_GENOME_FASTA" : {
+        "Ptr" : "/home/woodydrylab/HDD/GenomicsData/Populus_trichocarpa/Ptrichocarpa_533_v4.1/Ptrichocarpa_533_v4.0.fa"
+    },
+    "REF_MAX_INTRON_LENGTH" : {
+        "Ptr" : 21971
+    },
+    "REF_GENOME_GTF" : {
+        "Ptr" : "/home/woodydrylab/HDD/GenomicsData/Populus_trichocarpa/Ptrichocarpa_533_v4.1/Ptrichocarpa_533_v4.1.gene_addExon.gtf"
+    },
+    "REF_SPECIES" :{
+        "Ptr" : "Ptr",
+        "PtrTW" : "Ptr",
+        "PtrOW" : "Ptr",
+        "PtrVertical01" : "Ptr",
+        "PtrVertical02" : "Ptr",
+        "PtrVertical03" : "Ptr",
+        "PtrVertical04" : "Ptr",
+        "PtrTension02" : "Ptr",
+        "PtrTension03" : "Ptr",
+        "PtrTension04" : "Ptr",
+        "PtrOpposite02" : "Ptr",
+        "PtrOpposite03" : "Ptr",
+        "PtrOpposite04" : "Ptr"
+
+    },
+    "HISAT2_THREADS" : {
+        "PtrFiber1_1" : "32",
+        "PtrFiber1_2" : "32",
+        "PtrFiber1_3" : "32",
+        "PtrFiber2_1" : "32",
+        "PtrFiber2_2" : "32",
+        "PtrFiber2_3" : "32",
+        "PtrFiber2_4" : "32"
+    },
+    "SEQ_LENGTH" : {
+        "PtrFiber1_1" : 150,
+        "PtrFiber1_2" : 150,
+        "PtrFiber1_3" : 150,
+        "PtrFiber2_1" : 150,
+        "PtrFiber2_2" : 150,
+        "PtrFiber2_3" : 150,
+        "PtrFiber2_4" : 150
+    },
+    "MQD_SAMPLE" : {
+        "PtrFiber1" : ["PtrFiber1_1", "PtrFiber1_2", "PtrFiber1_3"],
+        "PtrFiber2" : ["PtrFiber2_1", "PtrFiber2_2", "PtrFiber2_3", "PtrFiber2_4"]
+    },
+    "MQD_FASTQ" : {
+        "PtrFiber1_1" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_1_S5_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_1_S5_R2_001.fastq.gz"
+        ],
+        "PtrFiber1_2" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_2_S7_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_2_S7_R2_001.fastq.gz"
+        ],
+        "PtrFiber1_3" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_3_S10_R1_001.fastq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane2/PtFiber_3_S10_R2_001.fastq.gz"
+        ],
+        "PtrFiber2_1" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane1/Populus_trichocarpa_fiber-tree1_1.fq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane1/Populus_trichocarpa_fiber-tree1_2.fq.gz"
+        ],
+        "PtrFiber2_2" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane1/Populus_trichocarpa_fiber-tree2_1.fq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane1/Populus_trichocarpa_fiber-tree2_2.fq.gz"
+        ],
+        "PtrFiber2_3" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane1/Populus_trichocarpa_fiber-tree3_1.fq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane1/Populus_trichocarpa_fiber-tree3_2.fq.gz"
+        ],
+        "PtrFiber2_4" : [
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane1/Populus_trichocarpa_fiber-tree4_1.fq.gz",
+            "RAW_DATA_PATH/04_LCM/Cell_type/VFR_Populus_trichocarpa/VFR_Populus_trichocarpa_Lane1/Populus_trichocarpa_fiber-tree4_2.fq.gz"
+        ]
+
+    },
+    "FASTQ_FOLDER" : {
+        "Ptr" : [
+            "RAW_DATA_PATH/03_Single_cell_sequencing/TENxGenomics/TEN_Populus_trichocarpa/TEN_Populus_trichocarpa_Batch1/fastq_path/HS18186/YCL"],
+        "PtrTW" : [
+            "/home/woodydrylab/DiskArray/f06b22037/HDD2/20221213_scseq_Ptr_TW/X201SC22113451-Z01-F001_02/01.RawData/TW_GEX/"],
+        "PtrOW" : [
+            "/home/woodydrylab/DiskArray/f06b22037/HDD2/20221213_scseq_Ptr_TW/X201SC22113451-Z01-F001_03/01.RawData/OW_GEX/"],        
+        "PtrVertical01" : [
+            "/home/woodydrylab/YCLlab_raw_data/Short-term/download_20231109_Tension_Wood/download/raw_data_X201SC23051673-Z01-F235/01.RawData/Ptr_1/"],
+        "PtrVertical02" : [
+            "/home/woodydrylab/YCLlab_raw_data/Short-term/download_20231109_Tension_Wood/download/raw_data_X201SC23051673-Z01-F235/01.RawData/Ptr_2/"],
+        "PtrVertical03" : [
+            "/home/woodydrylab/YCLlab_raw_data/Short-term/download_20231109_Tension_Wood/download/raw_data_X201SC23051673-Z01-F235/01.RawData/Ptr_3/"],
+        "PtrVertical04" : [
+            "/home/woodydrylab/YCLlab_raw_data/Short-term/download_20231109_Tension_Wood/download/raw_data_X201SC23051673-Z01-F235/01.RawData/Ptr_4/"],
+        "PtrTension02" : [
+            "/home/woodydrylab/YCLlab_raw_data/Short-term/download_20231109_Tension_Wood/download/raw_data_X201SC23051673-Z01-F233/01.RawData/Tension_02/"],
+        "PtrTension03" : [
+            "/home/woodydrylab/YCLlab_raw_data/Short-term/download_20231109_Tension_Wood/download/raw_data_X201SC23051673-Z01-F233/01.RawData/Tension_03/"],
+        "PtrTension04" : [
+            "/home/woodydrylab/YCLlab_raw_data/Short-term/download_20231109_Tension_Wood/download/raw_data_X201SC23051673-Z01-F233/01.RawData/Tension_04/"],
+        "PtrOpposite02" : [
+            "/home/woodydrylab/YCLlab_raw_data/Short-term/download_20231109_Tension_Wood/download/raw_data_X201SC23051673-Z01-F233/01.RawData/Opposite_02/"],
+        "PtrOpposite03" : [
+            "/home/woodydrylab/YCLlab_raw_data/Short-term/download_20231109_Tension_Wood/download/raw_data_X201SC23051673-Z01-F233/01.RawData/Opposite_03/"],
+        "PtrOpposite04" : [
+            "/home/woodydrylab/YCLlab_raw_data/Short-term/download_20231109_Tension_Wood/download/raw_data_X201SC23051673-Z01-F233/01.RawData/Opposite_04/"]    
+    },
+    "CELLRANGER_SAMPLE_NAME" : {
+        "Ptr" : "YCL",
+        "PtrTW" : "TW_GEX-SCI7T006-SCI5T006_H7YJMDSX5",
+        "PtrOW" : "OW_GEX-SCI7T005-SCI5T005_H7YMHDSX5",
+        "PtrVertical01" : "Ptr_1_CKDL230031656-1A_22CYWNLT3",
+        "PtrVertical02" : "Ptr_2_CKDL230031657-1A_22CYWNLT3",
+        "PtrVertical03" : "Ptr_3_CKDL230031658-1A_22CYWNLT3",
+        "PtrVertical04" : "Ptr_4_CKDL230031659-1A_22CYWNLT3",
+        "PtrTension02" : "Tension_02_CKDL230033780-1A_22FJHLLT3",
+        "PtrTension03" : "Tension_03_CKDL230033782-1A_22FJHLLT3",
+        "PtrTension04" : "Tension_04_CKDL230033784-1A_22FJHLLT3",
+        "PtrOpposite02" : "Opposite_02_CKDL230033781-1A_22FJHLLT3",
+        "PtrOpposite03" : "Opposite_03_CKDL230033783-1A_22FJHLLT3",
+        "PtrOpposite04" : "Opposite_04_CKDL230033785-1A_22FJHLLT3"
+    },
+    "CELLRANGER_BATCH" : {
+        "TenX_PtrAll" : ["TenX_Ptr", "TenX_Ptr2"],
+        "TenX_LchAll" : ["TenX_Lch", "TenX_Lch2", "TenX_Lch3", "TenX_Lch4", "TenX_Lch5"]
+    },
+    "CELLRANGER_BATCH_KIT" : {
+        "TenX_PtrAll" : ["v2", "v3"],
+        "TenX_LchAll" : ["TenX_Lch", "TenX_Lch2", "TenX_Lch3", "TenX_Lch4", "TenX_Lch5"]
+    },
+    "CELLRANGER_PARAMS" : {
+        "Ptr" : "./configs/Ptr_params.csv",
+        "PtrTW" : "./configs/Ptr_params.csv",
+        "PtrOW" : "./configs/Ptr_params.csv",
+        "PtrVertical01" : "./configs/Ptr_params.csv",
+        "PtrVertical02" : "./configs/Ptr_params.csv",
+        "PtrVertical03" : "./configs/Ptr_params.csv",
+        "PtrVertical04" : "./configs/Ptr_params.csv",
+        "PtrTension02" : "./configs/Ptr_params.csv",
+        "PtrTension03" : "./configs/Ptr_params.csv",
+        "PtrTension04" : "./configs/Ptr_params.csv",
+        "PtrOpposite02" : "./configs/Ptr_params.csv",
+        "PtrOpposite03" : "./configs/Ptr_params.csv",
+        "PtrOpposite04" : "./configs/Ptr_params.csv"
+
+    },
+    "CELLRANGER_N_CLUSTER" : {
+        "TenX_Ptr" : 10,
+        "TenX_PtrTW" : 10,
+        "TenX_PtrOW" : 10,
+        "TenX_PtrVertical01" : 10,
+        "TenX_PtrVertical02" : 10,
+        "TenX_PtrVertical03" : 10,
+        "TenX_PtrVertical04" : 10,
+        "TenX_PtrTension02" : 10,
+        "TenX_PtrTension03" : 10,
+        "TenX_PtrTension04" : 10,
+        "TenX_PtrOpposite02" : 10,
+        "TenX_PtrOpposite03" : 10,
+        "TenX_PtrOpposite04" : 10
+    },
+    "CELLRANGER_CLUSTER_COLOR" : {
+        "TenX_Ptr" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrTW" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrOW" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrVertical01" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrVertical02" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrVertical03" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrVertical04" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrTension02" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrTension03" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrTension04" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrOpposite02" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrOpposite03" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"],
+        "TenX_PtrOpposite04" : ["#1F77B4","#8C564B","#FF7F0F","#2AA02A","#F8E71C","#9467BD","#D62728","#E377C2","#9B9B9B","#4B4B4B"]
+
+    },
+    "GROUP_For_SUMMARY" : {
+        "TenX_Ptr" : "Ptr_TenX",
+        "TenX_PtrTW" : "PtrTW_TenX",
+        "TenX_PtrOW" : "PtrOW_TenX",
+        "TenX_PtrVertical01" : "PtrVertical_TenX",
+        "TenX_PtrVertical02" : "PtrVertical_TenX",
+        "TenX_PtrVertical03" : "PtrVertical_TenX",
+        "TenX_PtrVertical04" : "PtrVertical_TenX",
+        "TenX_PtrTension02" : "PtrTension_TenX",
+        "TenX_PtrTension03" : "PtrTension_TenX",
+        "TenX_PtrTension04" : "PtrTension_TenX",
+        "TenX_PtrOpposite02" : "PtrOpposite_TenX",
+        "TenX_PtrOpposite03" : "PtrOpposite_TenX",
+        "TenX_PtrOpposite04" :"PtrOpposite_TenX"
+    },
+    "SPECIES" :{
+        "TenX_Ptr" : "Ptr",
+        "TenX_PtrTW" : "Ptr",
+        "TenX_PtrOW" : "Ptr",
+        "TenX_PtrVertical01" : "Ptr",
+        "TenX_PtrVertical02" : "Ptr",
+        "TenX_PtrVertical03" : "Ptr",
+        "TenX_PtrVertical04" : "Ptr",
+        "TenX_PtrTension02" : "Ptr",
+        "TenX_PtrTension03" : "Ptr",
+        "TenX_PtrTension04" : "Ptr",
+        "TenX_PtrOpposite02" : "Ptr",
+        "TenX_PtrOpposite03" : "Ptr",
+        "TenX_PtrOpposite04" : "Ptr"
+    },
+    "MULTISAMPLES" : {       
+        "PtrTensionWoodALL_13samples" : [
+            "TenX_Ptr",
+            "TenX_PtrVertical02",
+            "TenX_PtrVertical03",
+            "TenX_PtrVertical04",
+            "TenX_PtrVertical01",            
+            "TenX_PtrTW",
+            "TenX_PtrTension02",
+            "TenX_PtrTension03",
+            "TenX_PtrTension04",
+            "TenX_PtrOW",
+            "TenX_PtrOpposite02",
+            "TenX_PtrOpposite03",
+            "TenX_PtrOpposite04"
+        ],       
+        "PtrVert1" : [
+            "TenX_Ptr",
+            "TenX_PtrVertical01"
+        ],
+        "PtrVert2" : [
+            "TenX_Ptr",
+            "TenX_PtrVertical02"
+        ],
+        "PtrVert3" : [
+            "TenX_Ptr",
+            "TenX_PtrVertical03"
+        ],
+        "PtrVert4" : [
+            "TenX_Ptr",
+            "TenX_PtrVertical04"
+        ],
+        "PtrTens1" : [
+            "TenX_Ptr",
+            "TenX_PtrTW"
+        ],
+        "PtrTens2" : [
+            "TenX_Ptr",
+            "TenX_PtrTension02"
+        ],
+        "PtrTens3" : [
+            "TenX_Ptr",
+            "TenX_PtrTension03"
+        ],
+        "PtrTens4" : [
+            "TenX_Ptr",
+            "TenX_PtrTension04"
+        ],
+        "PtrOp1" : [
+            "TenX_Ptr",
+            "TenX_PtrOW"
+        ],
+        "PtrOp2" : [
+            "TenX_Ptr",
+            "TenX_PtrOpposite02"
+        ],
+        "PtrOp3" : [
+            "TenX_Ptr",
+            "TenX_PtrOpposite03"
+        ],
+        "PtrOp4" : [
+            "TenX_Ptr",
+            "TenX_PtrOpposite04"
+        ],
+        "PtrTens12_rep" : [
+            "TenX_PtrTW",
+            "TenX_PtrTension02"
+        ],
+        "PtrTens13_rep" : [
+            "TenX_PtrTW",
+            "TenX_PtrTension03"
+        ],
+        "PtrTens14_rep" : [
+            "TenX_PtrTW",
+            "TenX_PtrTension04"
+        ],
+        "PtrTens23_rep" : [
+            "TenX_PtrTension02",
+            "TenX_PtrTension03"
+        ],
+        "PtrTens24_rep" : [
+            "TenX_PtrTension02",
+            "TenX_PtrTension04"
+        ],
+        "PtrTens34_rep" : [
+            "TenX_PtrTension03",
+            "TenX_PtrTension04"
+        ],       
+        "PtrOp12_rep" : [
+            "TenX_PtrOW",
+            "TenX_PtrOpposite02"
+        ],
+        "PtrOp13_rep" : [
+            "TenX_PtrOW",
+            "TenX_PtrOpposite03"
+        ],
+        "PtrOp14_rep" : [
+            "TenX_PtrOW",
+            "TenX_PtrOpposite04"
+        ],
+        "PtrOp23_rep" : [
+            "TenX_PtrOpposite02",
+            "TenX_PtrOpposite03"
+        ],
+        "PtrOp24_rep" : [
+            "TenX_PtrOpposite02",
+            "TenX_PtrOpposite04"
+        ],
+        "PtrOp34_rep" : [
+            "TenX_PtrOpposite03",
+            "TenX_PtrOpposite04"
+        ],
+        "PtrVert12_rep" : [
+            "TenX_PtrVertical01",
+            "TenX_PtrVertical02"
+        ],
+        "PtrVert13_rep" : [
+            "TenX_PtrVertical01",
+            "TenX_PtrVertical03"
+        ],
+        "PtrVert14_rep" : [
+            "TenX_PtrVertical01",
+            "TenX_PtrVertical04"
+        ],
+        "PtrVert23_rep" : [
+            "TenX_PtrVertical02",
+            "TenX_PtrVertical03"
+        ],
+        "PtrVert24_rep" : [
+            "TenX_PtrVertical02",
+            "TenX_PtrVertical04"
+        ],
+        "PtrVert34_rep" : [
+            "TenX_PtrVertical03",
+            "TenX_PtrVertical04"
+        ]        
+    },
+    "SEURAT_INTEGRATING_ORDER" : {
+        "PtrTensionWoodALL_13samples" : [
+            -2, -3, 1, -4, 2, -5,
+            -6, -7, 4, -8, 5, -9,
+            -10, -11, 7, -12, 8, -13,
+            -1, 3, 10, 6, 11, 9
+        ],
+        "PtrVert1" : [
+            -2, -1
+        ],
+        "PtrVert2" : [
+            -2, -1
+        ],
+        "PtrVert3" : [
+            -2, -1
+        ],
+        "PtrVert4" : [
+            -2, -1
+        ],
+        "PtrTens1" : [
+            -2, -1
+        ],
+        "PtrTens2" : [
+            -2, -1
+        ],
+        "PtrTens3" : [
+            -2, -1
+        ],
+        "PtrTens4" : [
+            -2, -1
+        ],
+        "PtrOp1" : [
+            -2, -1
+        ],
+        "PtrOp2" : [
+            -2, -1
+        ],
+        "PtrOp3" : [
+            -2, -1
+        ],
+        "PtrOp4" : [
+            -2, -1
+        ],
+        "PtrTens12_rep" : [
+            -1, -2
+        ],
+        "PtrTens13_rep" : [
+            -1, -2
+        ],
+        "PtrTens14_rep" : [
+            -1, -2
+        ],
+        "PtrTens23_rep" : [
+            -1, -2
+        ],
+        "PtrTens24_rep" : [
+            -1, -2
+        ],
+        "PtrTens34_rep" : [
+            -1, -2
+        ],
+        "PtrOp12_rep" : [
+            -1, -2
+        ],
+        "PtrOp13_rep" : [
+            -1, -2
+        ],
+        "PtrOp14_rep" : [
+            -1, -2
+        ],
+        "PtrOp23_rep" : [
+            -1, -2
+        ],
+        "PtrOp24_rep" : [
+            -1, -2
+        ],
+        "PtrOp34_rep" : [
+            -1, -2
+        ],
+        "PtrVert12_rep" : [
+            -1, -2
+        ],
+        "PtrVert13_rep" : [
+            -1, -2
+        ],
+        "PtrVert14_rep" : [
+            -1, -2
+        ],
+        "PtrVert23_rep" : [
+            -1, -2
+        ],
+        "PtrVert24_rep" : [
+            -1, -2
+        ],
+        "PtrVert34_rep" : [
+            -1, -2
+        ]
+    },
+    "SEURAT_K_PARAM" : {
+       "PtrTensionWoodALL_13samples": 3,
+        "PtrVert1" : 3,
+        "PtrVert2" : 3,
+        "PtrVert3" : 3,
+        "PtrVert4" : 3,
+        "PtrTens1" : 3,
+        "PtrTens2" : 3,
+        "PtrTens3" : 3,
+        "PtrTens4" : 3,
+        "PtrOp1" : 3,
+        "PtrOp2" : 3,
+        "PtrOp3" : 3,
+        "PtrOp4" : 3,
+        "PtrTens12_rep" : 3,
+        "PtrTens13_rep" : 3,
+        "PtrTens14_rep" : 3,
+        "PtrTens23_rep" : 3,
+        "PtrTens24_rep" : 3,
+        "PtrTens34_rep" : 3,
+        "PtrOp12_rep" : 3,
+        "PtrOp13_rep" : 3,
+        "PtrOp14_rep" : 3,
+        "PtrOp23_rep" : 3,
+        "PtrOp24_rep" : 3,
+        "PtrOp34_rep" : 3,
+        "PtrVert12_rep" : 3,
+        "PtrVert13_rep" : 3,
+        "PtrVert14_rep" : 3,
+        "PtrVert23_rep" : 3,
+        "PtrVert24_rep" : 3,
+        "PtrVert34_rep" : 3
+    }
+}
+
+
+

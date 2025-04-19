@@ -1,0 +1,8 @@
+{
+    "RAW_PLATE_FOLDER": {
+        "LCM_spatial": "LCM metabolome/20240925_LCM_spatial_metabolome"
+    },
+    "PLATE_GROUP_FOLDERS": {
+        "LCM_spatial": ["LCM_spatial"]
+    }
+}
